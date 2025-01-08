@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HeaderWrapper from "./wrappers/HeaderWrapper";
-import MovieList from "./components/movieList";
+import MovieList from "./components/MovieList";
 import moviesLoader from "./loaders/moviesLoader";
 import MovieDetails from "./components/MovieDetails";
 import movieLoader from "./loaders/movieLoader";
