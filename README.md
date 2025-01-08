@@ -52,15 +52,7 @@ Clone the repository to your local machine:
 
 ```
 
-#### 3. Set up environment variables:
-
-```bash
-
-    VITE_API_KEY = your_omdb_api_key_here
-
-```
-
-#### 4. Start the development server:
+#### 3. Start the development server:
 
 ```bash
 
