@@ -22,9 +22,12 @@ const HeaderWrapper = () => {
   return (
     <div>
       <nav className="flex justify-around items-center border-b border-gray-800/75 bg-slate-900 p-4">
-        <h1 className="text-3xl text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text">
+        <a
+          href="/"
+          className="text-3xl text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text"
+        >
           React Movie App
-        </h1>
+        </a>
         <div>
           <input
             type="text"

@@ -1,7 +1,5 @@
 import axios from "axios";
 
-const API_KEY = import.meta.env.VITE_API_KEY;
-
 const baseURL = `https://www.omdbapi.com`;
 
 const instance = axios.create({
@@ -13,7 +11,7 @@ const instance = axios.create({
 });
 
 instance.defaults.params = {
-  apikey: API_KEY,
+  apikey: "bb935ba3",
 };
 
 export default instance;
